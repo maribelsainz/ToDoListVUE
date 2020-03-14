@@ -36,7 +36,6 @@ button.boton__agregar {
   background: #fff;
   border: 2px solid rgb(100, 199, 182);
   box-shadow: 0 0 0 3px rgb(59, 148, 133);
-  ;
   cursor: pointer;
   width: 130px;
   border-radius: 21px;
@@ -52,4 +51,10 @@ button.boton__agregar:focus {
 
 button.button__agregar:active {
   transform: scale(1.1);
+}
+
+.listar_tarea {
+  padding: 5% 15% 5% 15%;
+  background-color: rgb(59, 148, 133);
+  color: white;
 }

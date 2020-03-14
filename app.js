@@ -2,7 +2,8 @@
 const app = new Vue({
   el: '#app',
   data: {
-    title: 'Crea una nueva tarea:'
+    title: 'Crea una nueva tarea:',
+    nuevoTodo: ''
   },
   methods: {
     addTodo() {

@@ -17,10 +17,14 @@
     <div class="ingresa__tarea">
       <h1>{{title}}</h1>
       <form @submit.prevent="addTodo">
-        <input type="text" name="newTodo" id="newTodo" placeholder="Ingresa una tarea">
+        <input v-model='nuevoTodo' type="text" name="newTodo" id="newTodo" placeholder="Ingresa una tarea">
         <button type="submit" class="boton__agregar">Agregar Tarea</button>
       </form>
     </div>
+
+    <section class="listar_tarea">
+      <h4>{{nuevoTodo}}</h4>
+    </section>
   </main>
 
   <!-- CDN de VUE -->
