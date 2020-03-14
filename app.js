@@ -11,6 +11,8 @@ const app = new Vue({
         titleItem: this.nuevoTodo,
         done: false
       })
+      // Esto limpia la barra del input después de agregar una tarea.
+      this.nuevoTodo = '';
     }
   }
 });

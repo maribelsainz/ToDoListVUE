@@ -58,3 +58,7 @@ button.button__agregar:active {
   background-color: rgb(59, 148, 133);
   color: white;
 }
+
+.done {
+  text-decoration: line-through;
+}

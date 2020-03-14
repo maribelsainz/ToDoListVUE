@@ -24,7 +24,9 @@
 
     <section class="listar_tarea">
       <ul>
-        <li v-for="todo in todos">{{todo.titleItem}}</li>
+        <li v-for="todo in todos">
+          <input type="checkbox" v-model="todo.done">
+          <span :class="{done: todo.done}">{{todo.titleItem}}</span></li>
       </ul>
     </section>
   </main>
