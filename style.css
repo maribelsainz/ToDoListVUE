@@ -62,3 +62,9 @@ button.button__agregar:active {
 .done {
   text-decoration: line-through;
 }
+
+.boton_borrar {
+  color: white;
+  background-color: rgb(59, 148, 133);
+  border: rgb(59, 148, 133);
+}

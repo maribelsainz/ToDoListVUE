@@ -13,6 +13,11 @@ const app = new Vue({
       })
       // Esto limpia la barra del input después de agregar una tarea.
       this.nuevoTodo = '';
+    },
+
+    removeTodo(todo) {
+      const todoIndex = this.todos.indexOf(todo);
+      this.todos.splice(todoIndex, 1);
     }
   }
 });
