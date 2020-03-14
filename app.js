@@ -7,7 +7,7 @@ const app = new Vue({
   },
   methods: {
     addTodo() {
-      console.log('formulario enviado');
+      console.log(this.nuevoTodo);
     }
   }
 });
