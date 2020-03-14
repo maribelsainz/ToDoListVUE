@@ -3,11 +3,14 @@ const app = new Vue({
   el: '#app',
   data: {
     title: 'Crea una nueva tarea:',
-    nuevoTodo: ''
+    todos: []
   },
   methods: {
     addTodo() {
-      console.log(this.nuevoTodo);
+      this.todos.push({
+        titleItem: this.nuevoTodo,
+        done: false
+      })
     }
   }
 });

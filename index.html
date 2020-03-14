@@ -23,7 +23,9 @@
     </div>
 
     <section class="listar_tarea">
-      <h4>{{nuevoTodo}}</h4>
+      <ul>
+        <li v-for="todo in todos">{{todo.titleItem}}</li>
+      </ul>
     </section>
   </main>
 
