@@ -26,6 +26,7 @@
     </div>
 
     <section class="listar_tarea">
+      <button @click="allDone" class="boton__done">Tareas Listas</button>
       <ul>
         <li v-for="todo in todos">
           <input type="checkbox" v-model="todo.done">

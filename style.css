@@ -68,3 +68,15 @@ button.button__agregar:active {
   background-color: rgb(59, 148, 133);
   border: rgb(59, 148, 133);
 }
+
+.boton__done {
+  margin-bottom: 20px;
+  border: 2px solid;
+  border-radius: 21px;
+  color: rgb(100, 199, 182);
+  padding: 6px;
+  font-weight: bold;
+  transition: 0.6s;
+  background-color: rgb(113, 116, 116);
+  width: 130px;
+}
